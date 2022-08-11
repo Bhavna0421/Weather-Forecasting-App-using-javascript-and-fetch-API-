@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+
+}
+/* container containing card1 and card2 */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    float: right;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+    box-sizing: border-box;
+    border-radius: 2em;
+    background-color: white;
+    width: 67rem;
+    height: 28rem;
+    margin-top: 2rem;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* card2 contains search button and weather information */
+.card2 {
+    padding: 3em;
+    border-radius: 2em;
+    width: 100%;
+    max-width: 420px;
+    margin: 0.5em;
+    color: black;
+    height: 23rem;
+    margin-left: -1em;
+
+}
+ /* card1 img  */
+.card1 img {
+    width: 40rem;
+    height: 27rem;
+    border-radius: 2em;
+    margin-left: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+/* when you hover on img */
+.card1 img:hover {
+    transform: scale(0.9);
+}
+/* search bar section */
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #7c7c7c6d;
+    color: black;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #7c7c7c2d;
+}
+
+input.search-bar {
+    padding: 0.3em 1em;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    background-color: #7c7c7c6d;
+    color: black;
+    font-family: inherit;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+/* temperature */
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+
+
+}
+/* city */
+.city{
+    text-transform: capitalize;
+    font-size: 2em;
+
+}
+/* flex contains weather icon */
+.flex {
+    display: flex;
+    align-items: center;
+}
+/* description */
+.description {
+    text-transform: capitalize;
+
+}
+/* when search */
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+/* when the page load before searching */
+.weather.loading:after {
+    visibility: visible;
+    content: " Let's have a quick tour of your favourite ctiy's weather. This weather app show you the city's Humidity, Wind speed, description and it's temperature .Let's have quick view of yours city weather, Just click on search and type of city name."; 
+    background-color: rgb(0 204 255 / 10%);
+    color: black;
+    position: absolute;
+    top: 0;
+    height: 20rem;
+    left: 3px;
+    height: 19rem;
+    border-radius: 2em;
+    margin-right: -2em;
+    margin-top: -1em;
+    padding-left: 1em;
+    padding-top: 2em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
