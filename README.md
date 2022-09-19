@@ -1,9 +1,12 @@
 # weather_app
 This is a  weather app which shows you weather of each and every state.
 In this weather app I used language like
-1.Html,
-2.Css ,
-3.Js and fetching Api .
+
+-HTML
+-CSS
+-Js and Fetching API.
+
+
 //Description
 This weather app show you the weather of city , state and country .
 It show you the weather,s description , humidity , wind speed etc.![weather app ss]
