@@ -2,7 +2,7 @@
 This is a  weather app which shows you weather of each and every state.
 In this weather app I used language like
 
-+HTML
+-HTML
 -CSS
 -Js and Fetching API.
 
