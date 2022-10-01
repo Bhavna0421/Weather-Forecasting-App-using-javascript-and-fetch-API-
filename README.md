@@ -58,7 +58,7 @@ I also took an efforts on making good UI.
 
 ![App Screenshot](https://user-images.githubusercontent.com/98327416/191972318-99ca4d23-69c0-4db1-9def-37bcd603ef86.png)
 
-##  Loom vedio for better experience
+##  Loom video for better experience
 
 
 https://www.loom.com/share/c47056cff1d84b11a340fef607ba3223
